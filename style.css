@@ -11,20 +11,21 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('images/Rectangle.png');
+    background-image: url('images/wall.png');
 }   
 
 .container{
     position: relative;
     width: 400px;
     height: 105px;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.3);
     padding: 28px 32px;
     overflow: hidden;
-    border-radius: 18px;
+    border-radius: 20px;
     font-family: 'Roboto', sans-serif;
     transition: 0.6s ease-out;
-    background-image: url('images/Glassmprph.png');
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+   
 }
 
 .search-box{
@@ -33,6 +34,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: rgba(255, 255, 255, 0);   
+    
 }
 
 .search-box input{
@@ -42,12 +45,13 @@ body{
     font-weight: 500;
     text-transform: uppercase;
     padding-left: 32px;
+    background: rgba(255, 255, 255, 0);
 }
 
 .search-box input::placeholder{
     font-size: 20px;
     font-weight: 500;
-    color: #06283D;
+    color: #ffffff;
     text-transform: capitalize;
 }
 
