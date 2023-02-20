@@ -2,6 +2,8 @@
 A simple web application that displays the current weather information of any location. This project was built using HTML, CSS, and JavaScript, and it utilizes the OpenWeatherMap API to retrieve weather data.
 
 # Images
+![Screenshot (7)](https://user-images.githubusercontent.com/79394229/220016254-b2740533-8663-41e8-a734-9226c9d7bb67.png)
+
 
 # Getting Started
 To use the Weather App, simply clone this repository to your local machine, and open the index.html file in your web browser. Alternatively, you can view the live demo of the project [here](https://sar1n-weather.netlify.app/).
